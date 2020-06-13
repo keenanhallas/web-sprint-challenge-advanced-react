@@ -33,4 +33,5 @@ test("form shows success message on submit with form details", () => {
 
     fireEvent.click(checkoutButton);
     const successMessage = getByTestId(/successMessage/i);
+    expect(successMessage).toBeInTheDocument();
 });
