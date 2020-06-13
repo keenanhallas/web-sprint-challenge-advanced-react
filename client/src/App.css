@@ -1,5 +1,4 @@
 body {
-  background: #0e101c;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -250,4 +249,12 @@ pre {
 .active {
   color: #0e101c;
   border-bottom: 2px solid !important;
+}
+
+.darkMode {
+  background: #0e101c;
+}
+
+.lightMode {
+  background: #d9dbe7;
 }
