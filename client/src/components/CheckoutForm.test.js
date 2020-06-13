@@ -7,8 +7,8 @@ import CheckoutForm from "./CheckoutForm";
 test("form header renders", () => {
     const {getByTestId} = render(<CheckoutForm />);
     const formHeader = getByTestId(/checkoutForm/i);
-    const firstNameField = getByTestId(/firstName/i);
-    fireEvent.change(firstNameField, { target: { value: 'checkout form' } });
+    //const firstNameField = getByTestId(/firstName/i);
+    //fireEvent.change(firstNameField, { target: { value: 'checkout form' } });
     expect(formHeader).toBeInTheDocument();
 });
 
